@@ -1,5 +1,5 @@
-import styles from "./";
+import cls from "./Loader.module.scss";
 
 export const Loader = () => {
-  return "Loading";
+  return <div className={cls.Loader}>Загрузка...</div>;
 };

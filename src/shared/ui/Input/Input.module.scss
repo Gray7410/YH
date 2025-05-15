@@ -1,0 +1,39 @@
+.input {
+  width: 100%;
+  padding: 14px 24px 14px 52px;
+  margin: 5px 0;
+  height: 48px;
+  background-color: var(--White-900);
+  background-image: url("../../assets/searchIcon.svg");
+  background-repeat: no-repeat;
+  background-position: 24px 12px;
+  outline: none;
+  border-radius: 68px;
+  border: 1px solid var(--Black-50);
+  &::placeholder {
+    color: var(--Black-50);
+  }
+}
+
+.input[type="text"],
+.input[type="password"] {
+  width: 100%;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.readonly {
+  opacity: 0.7;
+}
+
+.error {
+  .input {
+    border: 1px solid var(--red-dark);
+    &:focus {
+      border: none;
+      outline: 2px solid var(--red-dark);
+    }
+  }
+}

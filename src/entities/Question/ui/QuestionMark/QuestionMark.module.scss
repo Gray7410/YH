@@ -1,0 +1,13 @@
+.QuestionMark {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background-color: var(--Black-10);
+  list-style: none;
+  & span {
+    margin-left: 12px;
+    border-radius: 4px;
+    padding: 2px 4px;
+    background-color: var(--Purple-700);
+    color: var(--White-900);
+  }
+}

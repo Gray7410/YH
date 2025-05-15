@@ -1,1 +1,23 @@
-@import "reset";
+@use "./variables/colors";
+@use "reset";
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: var(--Black-700);
+  background-color: var(--Black-25);
+}
+
+a {
+  color: var(--Black-900);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 112px;
+}
+
+.content {
+  background-color: var(--White-900);
+  border-radius: 24px;
+}

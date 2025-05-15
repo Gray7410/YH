@@ -1,0 +1,25 @@
+.QuestionDetailsBody {
+  width: 804px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Header {
+  padding: 24px;
+  display: flex;
+}
+
+.HeaderInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Block {
+  padding: 24px;
+}
+
+.shortAnswer {
+  margin-top: 20px;
+}

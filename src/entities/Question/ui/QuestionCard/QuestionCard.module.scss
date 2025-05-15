@@ -1,0 +1,62 @@
+.QuestionCard {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--Black-100);
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  padding-left: 16px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: var(--Purple-800);
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.Answer {
+  margin: 24px 0;
+}
+
+.Link {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  color: var(--Purple-700);
+}
+
+.ParamList {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 14px;
+  line-height: 120%;
+  font-weight: 600;
+}
+
+.ParamItem {
+  padding: 6px 10px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background-color: var(--Black-10);
+  list-style: none;
+  & span {
+    margin-left: 12px;
+    border-radius: 4px;
+    padding: 2px 4px;
+    background-color: var(--Purple-700);
+    color: var(--White-900);
+  }
+}

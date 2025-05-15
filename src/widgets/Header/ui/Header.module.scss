@@ -1,0 +1,11 @@
+.Header {
+  background-color: var(--White-900);
+  border-bottom: solid 1px var(--Black-50);
+  margin-bottom: 40px;
+}
+
+.HeaderWrapper {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}

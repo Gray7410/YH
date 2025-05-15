@@ -1,0 +1,13 @@
+.Wrapper {
+  width: 804px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 20px;
+  gap: 20px;
+}
+
+.QuestionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
